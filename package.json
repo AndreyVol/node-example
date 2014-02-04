@@ -1,0 +1,15 @@
+{
+  "name": "node-example",
+  "version": "0.0.0",
+  "description": "sample node application to illustrate OAuth dance with force.com",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrey volosevich",
+  "license": "ISC",
+  "dependencies": {
+    "logfmt": "~0.20.0",
+    "express": "~3.4.8"
+  }
+}
