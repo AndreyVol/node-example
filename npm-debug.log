@@ -1,0 +1,234 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'node-dev' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose cache add [ 'node-dev', null ]
+5 verbose cache add name=undefined spec="node-dev" args=["node-dev",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-dev',
+6 verbose parsed url   path: 'node-dev',
+6 verbose parsed url   href: 'node-dev' }
+7 silly lockFile c62b500c-node-dev node-dev
+8 verbose lock node-dev /Users/avolosevich/.npm/c62b500c-node-dev.lock
+9 silly lockFile c62b500c-node-dev node-dev
+10 silly lockFile c62b500c-node-dev node-dev
+11 verbose addNamed [ 'node-dev', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 2552a2f1-node-dev node-dev@
+14 verbose lock node-dev@ /Users/avolosevich/.npm/2552a2f1-node-dev.lock
+15 silly addNameRange { name: 'node-dev', range: '*', hasData: false }
+16 verbose url raw node-dev
+17 verbose url resolving [ 'https://registry.npmjs.org/', './node-dev' ]
+18 verbose url resolved https://registry.npmjs.org/node-dev
+19 info trying registry request attempt 1 at 14:23:59
+20 http GET https://registry.npmjs.org/node-dev
+21 http 200 https://registry.npmjs.org/node-dev
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 04 Feb 2014 19:24:00 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+22 silly registry.get     etag: '"A725BICMN9EPU2X7QUCTCIYCE"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '32706',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '106909',
+22 silly registry.get     'x-served-by': 'cache-v42-ASH',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1391541840.148960114,VS0,VE36',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'node-dev', range: '*', hasData: true }
+24 silly addNameRange versions [ 'node-dev',
+24 silly addNameRange   [ '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.7',
+24 silly addNameRange     '0.2.8',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.2.10',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.0.2',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.1.3',
+24 silly addNameRange     '2.1.4',
+24 silly addNameRange     '2.1.5',
+24 silly addNameRange     '2.1.6' ] ]
+25 verbose addNamed [ 'node-dev', '2.1.6' ]
+26 verbose addNamed [ '2.1.6', '2.1.6' ]
+27 silly lockFile 2f38b358-node-dev-2-1-6 node-dev@2.1.6
+28 verbose lock node-dev@2.1.6 /Users/avolosevich/.npm/2f38b358-node-dev-2-1-6.lock
+29 silly lockFile 3ba49e6c--org-node-dev-node-dev-2-1-6-tgz https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz
+30 verbose lock https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz /Users/avolosevich/.npm/3ba49e6c--org-node-dev-node-dev-2-1-6-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz',
+31 verbose addRemoteTarball   'e7788eeaa97d58b46a8e366e60c7329e9e69fca9' ]
+32 info retry fetch attempt 1 at 14:24:00
+33 verbose fetch to= /var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/tmp.tgz
+34 http GET https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz
+35 http 200 https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz
+36 verbose tar unpack /var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/tmp.tgz
+37 silly lockFile 2a1ed592-40261-0-6961816411931068-package tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package
+38 verbose lock tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package /Users/avolosevich/.npm/2a1ed592-40261-0-6961816411931068-package.lock
+39 silly lockFile bc200846-40261-0-6961816411931068-tmp-tgz tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/tmp.tgz
+40 verbose lock tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/tmp.tgz /Users/avolosevich/.npm/bc200846-40261-0-6961816411931068-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry .jshintrc
+46 silly gunzTarPerm extractEntry .travis.yml
+47 silly gunzTarPerm extractEntry bin/node-dev
+48 silly gunzTarPerm extractEntry icons/node_error.png
+49 silly gunzTarPerm extractEntry icons/node_info.png
+50 silly gunzTarPerm extractEntry lib/cfg.js
+51 silly gunzTarPerm extractEntry lib/cli.js
+52 silly gunzTarPerm extractEntry lib/hook.js
+53 silly gunzTarPerm extractEntry lib/index.js
+54 silly gunzTarPerm extractEntry lib/ipc.js
+55 silly gunzTarPerm extractEntry lib/log.js
+56 silly gunzTarPerm extractEntry lib/notify.js
+57 silly gunzTarPerm extractEntry lib/wrap.js
+58 silly lockFile 2a1ed592-40261-0-6961816411931068-package tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package
+59 silly lockFile 2a1ed592-40261-0-6961816411931068-package tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package
+60 silly lockFile bc200846-40261-0-6961816411931068-tmp-tgz tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/tmp.tgz
+61 silly lockFile bc200846-40261-0-6961816411931068-tmp-tgz tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/tmp.tgz
+62 verbose tar pack [ '/Users/avolosevich/.npm/node-dev/2.1.6/package.tgz',
+62 verbose tar pack   '/var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package' ]
+63 verbose tarball /Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+64 verbose folder /var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package
+65 silly lockFile 2a1ed592-40261-0-6961816411931068-package tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package
+66 verbose lock tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package /Users/avolosevich/.npm/2a1ed592-40261-0-6961816411931068-package.lock
+67 silly lockFile 82dd1ad7-h-npm-node-dev-2-1-6-package-tgz tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+68 verbose lock tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz /Users/avolosevich/.npm/82dd1ad7-h-npm-node-dev-2-1-6-package-tgz.lock
+69 silly lockFile 2a1ed592-40261-0-6961816411931068-package tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package
+70 silly lockFile 2a1ed592-40261-0-6961816411931068-package tar:///var/folders/vp/ql4b8p794h19r7lxm_zgxx69ftycjd/T/npm-7551-40DIeW7h/1391541840261-0.6961816411931068/package
+71 silly lockFile 82dd1ad7-h-npm-node-dev-2-1-6-package-tgz tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+72 silly lockFile 82dd1ad7-h-npm-node-dev-2-1-6-package-tgz tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+73 silly lockFile 61efefa5-evich-npm-node-dev-2-1-6-package /Users/avolosevich/.npm/node-dev/2.1.6/package
+74 verbose lock /Users/avolosevich/.npm/node-dev/2.1.6/package /Users/avolosevich/.npm/61efefa5-evich-npm-node-dev-2-1-6-package.lock
+75 silly lockFile 61efefa5-evich-npm-node-dev-2-1-6-package /Users/avolosevich/.npm/node-dev/2.1.6/package
+76 silly lockFile 61efefa5-evich-npm-node-dev-2-1-6-package /Users/avolosevich/.npm/node-dev/2.1.6/package
+77 verbose tar unpack /Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+78 silly lockFile d2e69ec1-evich-npm-node-dev-2-1-6-package tar:///Users/avolosevich/.npm/node-dev/2.1.6/package
+79 verbose lock tar:///Users/avolosevich/.npm/node-dev/2.1.6/package /Users/avolosevich/.npm/d2e69ec1-evich-npm-node-dev-2-1-6-package.lock
+80 silly lockFile 82dd1ad7-h-npm-node-dev-2-1-6-package-tgz tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+81 verbose lock tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz /Users/avolosevich/.npm/82dd1ad7-h-npm-node-dev-2-1-6-package-tgz.lock
+82 silly gunzTarPerm modes [ '755', '644' ]
+83 silly gunzTarPerm extractEntry package.json
+84 silly gunzTarPerm extractEntry .npmignore
+85 silly gunzTarPerm extractEntry README.md
+86 silly gunzTarPerm extractEntry .jshintrc
+87 silly gunzTarPerm extractEntry .travis.yml
+88 silly gunzTarPerm extractEntry bin/node-dev
+89 silly gunzTarPerm extractEntry icons/node_error.png
+90 silly gunzTarPerm extractEntry icons/node_info.png
+91 silly gunzTarPerm extractEntry lib/cfg.js
+92 silly gunzTarPerm extractEntry lib/cli.js
+93 silly gunzTarPerm extractEntry lib/hook.js
+94 silly gunzTarPerm extractEntry lib/index.js
+95 silly gunzTarPerm extractEntry lib/ipc.js
+96 silly gunzTarPerm extractEntry lib/log.js
+97 silly gunzTarPerm extractEntry lib/notify.js
+98 silly gunzTarPerm extractEntry lib/wrap.js
+99 silly lockFile d2e69ec1-evich-npm-node-dev-2-1-6-package tar:///Users/avolosevich/.npm/node-dev/2.1.6/package
+100 silly lockFile d2e69ec1-evich-npm-node-dev-2-1-6-package tar:///Users/avolosevich/.npm/node-dev/2.1.6/package
+101 silly lockFile 82dd1ad7-h-npm-node-dev-2-1-6-package-tgz tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+102 silly lockFile 82dd1ad7-h-npm-node-dev-2-1-6-package-tgz tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+103 verbose chmod /Users/avolosevich/.npm/node-dev/2.1.6/package.tgz 644
+104 verbose chown /Users/avolosevich/.npm/node-dev/2.1.6/package.tgz [ 1571762733, 454177323 ]
+105 silly lockFile 3ba49e6c--org-node-dev-node-dev-2-1-6-tgz https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz
+106 silly lockFile 3ba49e6c--org-node-dev-node-dev-2-1-6-tgz https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz
+107 silly lockFile 2f38b358-node-dev-2-1-6 node-dev@2.1.6
+108 silly lockFile 2f38b358-node-dev-2-1-6 node-dev@2.1.6
+109 silly lockFile 2552a2f1-node-dev node-dev@
+110 silly lockFile 2552a2f1-node-dev node-dev@
+111 silly resolved [ { name: 'node-dev',
+111 silly resolved     version: '2.1.6',
+111 silly resolved     description: 'Restarts your app when files are modified',
+111 silly resolved     keywords: [ 'restart', 'reload', 'supervisor', 'monitor', 'watch' ],
+111 silly resolved     author: { name: 'Felix Gnass' },
+111 silly resolved     repository: { type: 'git', url: 'http://github.com/fgnass/node-dev.git' },
+111 silly resolved     license: 'MIT',
+111 silly resolved     bin: { 'node-dev': './bin/node-dev' },
+111 silly resolved     main: './lib',
+111 silly resolved     preferGlobal: true,
+111 silly resolved     engines: { node: '>=0.8.0' },
+111 silly resolved     scripts: { test: 'mocha' },
+111 silly resolved     dependencies:
+111 silly resolved      { growl: '~1.7.0',
+111 silly resolved        dateformat: '~1.0.4-1.2.3',
+111 silly resolved        filewatcher: '~1.0.0' },
+111 silly resolved     devDependencies:
+111 silly resolved      { mocha: '~1.4.1',
+111 silly resolved        'expect.js': '~0.2.0',
+111 silly resolved        'coffee-script': '~1.5.0' },
+111 silly resolved     readme: '[![Build Status](https://secure.travis-ci.org/fgnass/node-dev.png)](http://travis-ci.org/fgnass/node-dev)\n\n# node-dev\n\nNode-dev is a development tool for [Node.js](http://nodejs.org) that\nautomatically restarts the node process when a script is modified.\n\nIt\'s an alternative to tools like\n[supervisor](https://github.com/isaacs/node-supervisor) or\n[nodemon](https://github.com/remy/nodemon) that doesn\'t require any\nconfiguration. Just run `node-dev foo.js` as you would normally run `node` and\nit will automatically figure out which files need to be watched.\n\nYou may also use node-dev with [CoffeeScript](http://http://coffeescript.org/)\nor [LiveScript](http://livescript.net/) apps. Just run `node-dev app.coffee`\nor `node-dev app.ls`. You may also register additional language flavors by\nadding them to the extensions list in your [.node-dev.json](#settings) config\nfile.\n\n### Desktop Notifications\n\nStatus and error messages can be displayed as desktop notification using either\n[Growl](http://growl.info/about.php) or\n[libnotify](http://developer.gnome.org/libnotify/).\n\n![Screenshot](http://fgnass.github.com/images/node-dev.png)\n\n![Screenshot](http://fgnass.github.com/images/node-dev-linux.png)\n\n### Installation\n\nNode-dev can be installed via [npm](http://github.com/isaacs/npm):\n\n    npm install -g node-dev\n\nIn order to use Growl notifications\n[growlnotify](http://growl.info/extras.php#growlnotify) must be installed on\nyour system.\n\nTo use OSX\'s built in notifications:\n\n    sudo gem install terminal-notifier\n\n### Settings\n\nUpon startup node-dev looks for a `.node-dev.json` file in the user\'s HOME\ndirectory. It will also look for a `.node-dev.json` file in the current\ndirectory which – if present – overwrites the global settings.\n\n* __vm__ – Whether to watch files loaded via Node\'s [VM](http://nodejs.org/docs/latest/api/vm.html) module. _Default:_ `true`\n* __fork__ – Whether to hook into [child_process.fork()](http://nodejs.org/docs/latest/api/child_process.html#child_process_child_process_fork_modulepath_args_options) which is required for [clustered](http://nodejs.org/docs/latest/api/cluster.html) programs. _Default:_ `true`\n* __notify__ – Whether to display desktop notifications. _Default:_ `true`\n* __timestamp__ – The timestamp format to use for logging restarts. _Default:_ `"HH:MM:ss"`\n* __clear__ – Whether to clear the screen upon restarts. _Default:_ `false`\n* __extensions__ – Modules to load based bad on extension of the main script. _Default:_\n  `{ coffee: "coffee-script", ls: "LiveScript" }`\n* __deps__ - Wether to watch dependencies of a project (modules which reside in\n  `node_modules` directories). _Default:_ `true`\n\n### The MIT License (MIT)\n\nCopyright (c) 2013 Felix Gnass\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n',
+111 silly resolved     readmeFilename: 'README.md',
+111 silly resolved     bugs: { url: 'https://github.com/fgnass/node-dev/issues' },
+111 silly resolved     homepage: 'https://github.com/fgnass/node-dev',
+111 silly resolved     _id: 'node-dev@2.1.6',
+111 silly resolved     dist: { shasum: 'd9a5dfe285e56d8a3cca5d7578bb028062f4d885' },
+111 silly resolved     _from: 'node-dev@',
+111 silly resolved     _resolved: 'https://registry.npmjs.org/node-dev/-/node-dev-2.1.6.tgz' } ]
+112 info install node-dev@2.1.6 into /usr/local/lib
+113 info installOne node-dev@2.1.6
+114 info /usr/local/lib/node_modules/node-dev unbuild
+115 verbose tar unpack /Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+116 silly lockFile c89b1ad4--local-lib-node-modules-node-dev tar:///usr/local/lib/node_modules/node-dev
+117 verbose lock tar:///usr/local/lib/node_modules/node-dev /Users/avolosevich/.npm/c89b1ad4--local-lib-node-modules-node-dev.lock
+118 silly lockFile 82dd1ad7-h-npm-node-dev-2-1-6-package-tgz tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz
+119 verbose lock tar:///Users/avolosevich/.npm/node-dev/2.1.6/package.tgz /Users/avolosevich/.npm/82dd1ad7-h-npm-node-dev-2-1-6-package-tgz.lock
+120 silly gunzTarPerm modes [ '755', '644' ]
+121 error Error: EACCES, mkdir '/usr/local/lib/node_modules/node-dev'
+121 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/node-dev']
+121 error   errno: 3,
+121 error   code: 'EACCES',
+121 error   path: '/usr/local/lib/node_modules/node-dev',
+121 error   fstream_type: 'Directory',
+121 error   fstream_path: '/usr/local/lib/node_modules/node-dev',
+121 error   fstream_class: 'DirWriter',
+121 error   fstream_stack:
+121 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+121 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+121 error      'Object.oncomplete (fs.js:107:15)' ] }
+122 error Please try running this command again as root/Administrator.
+123 error System Darwin 12.5.0
+124 error command "node" "/usr/local/bin/npm" "install" "-g" "node-dev"
+125 error cwd /Users/avolosevich/Workspaces/GitHub/node-example
+126 error node -v v0.10.25
+127 error npm -v 1.3.24
+128 error path /usr/local/lib/node_modules/node-dev
+129 error fstream_path /usr/local/lib/node_modules/node-dev
+130 error fstream_type Directory
+131 error fstream_class DirWriter
+132 error code EACCES
+133 error errno 3
+134 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/node-dev'
+135 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+135 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+135 error fstream_stack Object.oncomplete (fs.js:107:15)
+136 verbose exit [ 3, true ]
